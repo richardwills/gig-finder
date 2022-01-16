@@ -1,0 +1,99 @@
+@media only screen and (max-width: 450px) {
+  #buttonSection {
+    display: inline-block;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  #coordCheck,
+  #searchContainer {
+    max-width: 50%;
+  }
+}
+
+img {
+  max-width: 60%;
+  align-self: center;
+}
+
+body {
+  background: lightblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+#coordinates.hidden {
+  display: none;
+}
+
+#coordinates.showing {
+  display: block;
+}
+
+#miles {
+  font-weight: bold;
+}
+#coordContainer {
+  display: flex;
+  justify-content: center;
+}
+#coordCheck {
+  border: 1px red solid;
+  border-radius: 5px;
+  justify-content: center;
+  background: #dbdada;
+  padding: 5px;
+  margin: 5px;
+}
+
+#searchContainer {
+  border: 1px rgb(59, 23, 216) solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background: rgb(70, 70, 214);
+  color: white;
+}
+
+#buttonSection {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-radius: 15px;
+  font: message-box;
+  padding: 5px;
+  margin: 5px;
+  background-color: green;
+  color: white;
+  box-shadow: 3px 2px black;
+}
+
+button:hover {
+  background-color: #05f705;
+  cursor: pointer;
+}
+
+#searchDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#artist,
+#venue,
+#city,
+#distance {
+  margin: 3px;
+}
+
+#noResults {
+  margin: 10px;
+  font-size: 20px;
+}
+
+#searchButton[disabled] {
+  background: grey;
+  cursor: not-allowed;
+}
