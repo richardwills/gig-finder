@@ -2,11 +2,10 @@
   "name": "real-final-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "vercel-build": "parcel ./build.js"
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
